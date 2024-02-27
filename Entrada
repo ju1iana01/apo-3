@@ -1,0 +1,50 @@
+```
+package mundo;
+import java.util.Date;
+/**
+ *
+ * @author JULIANA
+ */
+
+   
+
+    public class Entrada {
+    private int idEntrada;
+    private Date fecha;
+    private String descripcion;
+
+    public Entrada() {
+    }
+
+    public Entrada(int idEntrada, Date fecha, String descripcion) {
+        this.idEntrada = idEntrada;
+        this.fecha = fecha;
+        this.descripcion = descripcion;
+    }
+
+    public int getIdEntrada() {
+        return idEntrada;
+    }
+
+    public void setIdEntrada(int idEntrada) {
+        this.idEntrada = idEntrada;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+}
+```
